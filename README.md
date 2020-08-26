@@ -15,3 +15,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![Heather's github stats](https://github-readme-stats.vercel.app/api?username=hfan22&count_private=true&show_icons=true&theme=tokyonight&hide=stars)
+
+<table><tr><td valign="top" width="33%">
+
+### Recent releases
+<!-- recent_releases starts -->
+
+<!-- recent_releases ends -->
+</td><td valign="top" width="34%">
+
+</td></tr></table>
