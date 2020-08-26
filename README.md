@@ -22,6 +22,4 @@ Here are some ideas to get you started:
 <!-- recent_releases starts -->
 
 <!-- recent_releases ends -->
-</td><td valign="top" width="34%">
-
 </td></tr></table>
