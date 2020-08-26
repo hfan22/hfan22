@@ -28,33 +28,33 @@ def make_query(after_cursor=None, include_organization=False):
     query {
         viewer {
             pullRequests(first: 10, baseRefName: "master", orderBy:{field: CREATED_AT, direction: DESC}) {
-            totalCount,
-            pageInfo {
-                hasNextPage
-                endCursor
-            },
-            nodes {
-                url,
-                repository {
-                name,
-                url
-                },
-                headRefName,
-                commits {
-                totalCount
-                },
-                comments {
-                totalCount
-                },
-                reviews {
                 totalCount,
+                pageInfo {
+                    hasNextPage
+                    endCursor
+                },
+                nodes {
+                    url,
+                    repository {
+                        name,
+                        url
+                    },
+                    headRefName,
+                    commits {
+                        totalCount
+                    },
+                    comments {
+                        totalCount
+                    },
+                    reviews {
+                        totalCount
+                    },
+                    createdAt,
+                    mergedAt
                 }
-                createdAt,
-                mergedAt
-            }
             }
         }
-        }
+    }
     """.replace(
         "AFTER", '"{}"'.format(after_cursor) if after_cursor else "null"
     )
@@ -80,8 +80,6 @@ def fetch_pull_requests(oauth_token):
         print()
         pull_request_nodes = data["data"]["viewer"]["pullRequests"]["nodes"]
         for pr in pull_request_nodes:
-            if pr["repository"]["name"] not in repos:
-                repos.add(pr["repository"]["name"])
             pull_requests.append(pr)
             pull_request_nodes.append(
                 {
