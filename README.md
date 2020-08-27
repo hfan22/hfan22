@@ -14,6 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Heather's github stats](https://github-readme-stats.vercel.app/api?username=hfan22&count_private=true&show_icons=true&theme=tokyonight&hide=stars)
+<!-- <img src="https://raw.githubusercontent.com/hfan22/hfan22/master/resources/banner.png" alt="Hello world"> -->
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hfan22)
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/hfan22/count.svg" />
+</p>
+
+![Heather's github stats](https://github-readme-stats.vercel.app/api?username=hfan22&count_private=true&show_icons=true&theme=tokyonight&hide=stars)
