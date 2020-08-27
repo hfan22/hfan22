@@ -16,10 +16,4 @@ Here are some ideas to get you started:
 -->
 ![Heather's github stats](https://github-readme-stats.vercel.app/api?username=hfan22&count_private=true&show_icons=true&theme=tokyonight&hide=stars)
 
-<table><tr><td valign="top" width="100%">
-
-### Recent releases
-<!-- recent_releases starts -->
-
-<!-- recent_releases ends -->
-</td></tr></table>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hfan&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
