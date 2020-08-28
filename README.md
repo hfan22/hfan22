@@ -22,7 +22,7 @@ Here are some ideas to get you started:
   <img src="https://profile-counter.glitch.me/hfan22/count.svg" />
 </p>
 
-![dino-jump](https://github.com/hfan22/hfan22/master/din.gif)
+![dino-jump](https://github.com/hfan22/hfan22/blob/master/din.gif)
 
 <p>
 <a href="https://www.linkedin.com/in/rong-fan/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" height=25></a> 
